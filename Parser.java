@@ -156,7 +156,7 @@ public class Parser {
     public void writeFile(){
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter("the-file-name.txt", "UTF-8");
+            writer = new PrintWriter("result.txt", "UTF-8");
         } catch (FileNotFoundException e) {
             System.out.println("There is a problem in file writing");
         } catch (UnsupportedEncodingException e) {
